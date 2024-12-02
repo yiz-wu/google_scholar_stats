@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/google_scholar_stats/static/css/main.d3c8e855.css",
-    "main.js": "/google_scholar_stats/static/js/main.c0ac2c7f.js",
+    "main.css": "/google_scholar_stats/static/css/main.6f026ced.css",
+    "main.js": "/google_scholar_stats/static/js/main.64cdeb96.js",
     "static/js/453.0a36081d.chunk.js": "/google_scholar_stats/static/js/453.0a36081d.chunk.js",
-    "static/media/logo.svg": "/google_scholar_stats/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/google_scholar_stats/index.html",
-    "main.d3c8e855.css.map": "/google_scholar_stats/static/css/main.d3c8e855.css.map",
-    "main.c0ac2c7f.js.map": "/google_scholar_stats/static/js/main.c0ac2c7f.js.map",
+    "main.6f026ced.css.map": "/google_scholar_stats/static/css/main.6f026ced.css.map",
+    "main.64cdeb96.js.map": "/google_scholar_stats/static/js/main.64cdeb96.js.map",
     "453.0a36081d.chunk.js.map": "/google_scholar_stats/static/js/453.0a36081d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3c8e855.css",
-    "static/js/main.c0ac2c7f.js"
+    "static/css/main.6f026ced.css",
+    "static/js/main.64cdeb96.js"
   ]
 }
