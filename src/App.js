@@ -1,29 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import PublicationStatsDashboard from './publication-stats-js.js';
+import ScholarProfile from './google-scholar-profile.js';
+import { SearchPage, ResultsPage, ProfilePage } from './scholar-search-app.js';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 
 function App() {
+  console.log('App component rendering');
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit file at <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <h1 className="text-3xl font-bold underline">
-          Hello world!
-        </h1>
-      </header>
-    </div>
+    
+    <Router basename="/google_scholar_stats">
+      <Routes>
+        <Route path="/" element={<SearchPage />} />
+        <Route path="/results" element={<ResultsPage />} />
+        <Route path="/profile/:id" element={<ProfilePage />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+    </Router>
+    
   );
 }
 
